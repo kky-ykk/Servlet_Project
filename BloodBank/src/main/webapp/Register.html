@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+		table {
+	    	margin: 16vh 39vw;
+	        height: 200px;
+	        width: 300px;
+	    }
+	</style>
+</head>
+<body class="bg-success">
+	<table>
+		<form action="./Reg" method="get">
+			<tr>
+				<th>Name</th>
+				<th>
+					<input type="text" name="name" required>		
+				</th>
+			</tr>
+			<tr>
+				<th>Age</th>
+				<th>
+					<input type="number" name="age" required>		
+				</th>
+			</tr>
+			<tr>
+				<th>Blood group</th>
+				<th>
+					<select name="bg" >
+			            <option value="B-">B-</option>
+			            <option value="B+">B+</option>
+			            <option value="O+">O+</option>
+			          	<option value="O-">O-</option>
+	        		</select>		
+				</th>
+			</tr>
+			<tr>
+				<th>Lcation</th>
+				<th>
+					<input type="text" name="location" required>		
+				</th>
+			</tr>			
+			<tr>
+				<td colspan=2 class="text-center">
+					<input type="submit" value="Register" class="btn-primary" required>
+				</td>
+			</tr>
+		</form>
+	
+	</table>
+</body>
+</html>
